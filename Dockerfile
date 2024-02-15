@@ -1,6 +1,6 @@
 FROM golang:1.21.5-bullseye AS build
 
-WORKDIR /main
+WORKDIR /go/src/rediskeyspace
 
 COPY db ./db
 COPY main.go ./
